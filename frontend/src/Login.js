@@ -6,7 +6,7 @@ const msalConfig = {
     clientId: "41dc63c2-35e2-465f-ad60-b14765a08871",
     authority:
       "https://login.microsoftonline.com/b8341c25-e49c-4b6b-adbd-cb7f777aecd7",
-    redirectUri: "https://20230711smartolafe.azurewebsites.net/redirect", // Update this with your actual redirect URI
+    redirectUri: "http://localhost:3000/", // Update this with your actual redirect URI
   },
   cache: {
     cacheLocation: "sessionStorage",

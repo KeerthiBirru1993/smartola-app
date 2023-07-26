@@ -7,7 +7,7 @@ yarn-error.log*
 lerna-debug.log*
 .pnpm-debug.log*
 
-#python
+#python  
 *pycache
 *venv
 .env
@@ -143,8 +143,6 @@ dist
 *coverage
 
 # production
-*build
-
 # misc
 .DS_Store
 .env.local
